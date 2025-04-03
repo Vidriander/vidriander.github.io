@@ -1,0 +1,39 @@
+body {
+    /* Hier eine Hintergrundfarbe hinzufügen. */
+}
+
+.card {
+    /* Hier eine Hintergrundfarbe hinzufügen. */
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.image {
+
+    background-image: url('./bilder/...'); /* Ergänze hier den Pfad, um ein Bild anzuzeigen. */
+
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 10px 10px;
+    height: 100%;
+}
+
+.colored-btn {
+    background-color: rgba(248, 252, 255, 0.671);
+    margin: 5%;
+}
+
+.rainbow-btn {
+    background: linear-gradient(45deg, #daf78c, #86f4d1, #fb9ee1);
+}
+
+.pink-btn {
+    background: linear-gradient(45deg, #f9cafc, #f86cea);
+}
+
+.green-btn {
+    background: linear-gradient(45deg, #a8f9a0, #86f4d1);
+}
